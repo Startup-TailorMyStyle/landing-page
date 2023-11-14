@@ -18,7 +18,7 @@ const Contact = ({ title, content, id, t }: ContactProps) => {
   const ValidationType = ({ type }: ValidationTypeProps) => {
     const ErrorMessage = errors[type];
     return (
-      <Zoom direction="left">
+      <Zoom direction="right">
         <Span erros={errors[type]}>{ErrorMessage}</Span>
       </Zoom>
     );
@@ -39,33 +39,40 @@ const Contact = ({ title, content, id, t }: ContactProps) => {
                 <Input
                   type="text"
                   name="name"
-                  placeholder="Your Name"
+                  placeholder="Name"
                   value={values.name || ""}
                   onChange={handleChange}
                 />
-                <ValidationType type="name" />
               </Col>
               <Col span={24}>
                 <Input
                   type="text"
                   name="email"
-                  placeholder="Your Email"
+                  placeholder="Email"
                   value={values.email || ""}
                   onChange={handleChange}
                 />
-                <ValidationType type="email" />
               </Col>
               <Col span={24}>
-                <TextArea
-                  placeholder="Your Message"
-                  value={values.message || ""}
-                  name="message"
+                <Input
+                  type="text"
+                  name="password"
+                  placeholder="Password"
+                  value={values.email || ""}
                   onChange={handleChange}
                 />
-                <ValidationType type="message" />
+              </Col>
+              <Col span={24}>
+                <Input
+                  type="text"
+                  name="password"
+                  placeholder="Confirm password"
+                  value={values.email || ""}
+                  onChange={handleChange}
+                />
               </Col>
               <ButtonContainer>
-                <Button name="submit">{t("Submit")}</Button>
+                <Button name="submit">{("Style me up!")}</Button>
               </ButtonContainer>
             </FormGroup>
           </Slide>

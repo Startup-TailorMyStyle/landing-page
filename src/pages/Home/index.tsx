@@ -4,7 +4,10 @@ import MiddleBlockContent from "../../content/MiddleBlockContent.json";
 import AboutContent from "../../content/AboutContent.json";
 import MissionContent from "../../content/MissionContent.json";
 import ProductContent from "../../content/ProductContent.json";
+import QAContent from "../../content/QaContent.json";
 import ContactContent from "../../content/ContactContent.json";
+import MiddleBlockForBenefits from "../../components/MiddleBlockForBenefits";
+import MiddleBlockForQA from "../../components/MiddleBlockForQA";
 
 const Contact = lazy(() => import("../../components/ContactForm"));
 const MiddleBlock = lazy(() => import("../../components/MiddleBlock"));
@@ -21,31 +24,31 @@ const Home = () => {
         title={IntroContent.title}
         content={IntroContent.text}
         button={IntroContent.button}
-        icon="developer.svg"
+        icon="WhenShoppingFitsPerfectly.jpeg"
         id="intro"
       />
-      <MiddleBlock
+      <ContentBlock
+        type="left"
         title={MiddleBlockContent.title}
         content={MiddleBlockContent.text}
         button={MiddleBlockContent.button}
+        icon="SizingUptheCompetition.jpeg"
+        id="middle"
       />
-      <ContentBlock
-        type="left"
+      <MiddleBlockForBenefits
         title={AboutContent.title}
         content={AboutContent.text}
         section={AboutContent.section}
-        icon="graphs.svg"
-        id="about"
+        id="benefits"
       />
+      <MiddleBlockForQA
+        title={QAContent.title}
+        content={QAContent.text}
+        section={QAContent.section}
+        id="QA"
+      /> 
       <ContentBlock
         type="right"
-        title={MissionContent.title}
-        content={MissionContent.text}
-        icon="product-launch.svg"
-        id="mission"
-      />
-      <ContentBlock
-        type="left"
         title={ProductContent.title}
         content={ProductContent.text}
         icon="waving.svg"

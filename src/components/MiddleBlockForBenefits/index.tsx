@@ -1,19 +1,19 @@
 import { Row, Col } from "antd";
 import { withTranslation } from "react-i18next";
-import { SvgIcon } from "../../../common/SvgIcon";
-import { ContentBlockProps } from "../types";
-import { Fade } from "react-awesome-reveal";
 import {
-  LeftContentSection,
+  MiddleContentForBenefitsSection,
   Content,
   ContentWrapper,
   ServiceWrapper,
   MinTitle,
   MinPara,
 } from "./styles";
+import { ContentBlockProps } from "./types";
+import { SvgIcon } from "../../common/SvgIcon";
+import { MiddleBlockSection } from "../MiddleBlock/styles";
+import { Slide } from "react-awesome-reveal";
 
-const LeftContentBlock = ({
-  icon,
+const MiddleContentForBenefitsSections = ({
   title,
   content,
   section,
@@ -21,18 +21,13 @@ const LeftContentBlock = ({
   id,
 }: ContentBlockProps) => {
   return (
-    <LeftContentSection>
-      <Fade direction="left">
-        <Row justify="space-between" align="middle" id={id}>
-          <Col lg={9} md={11} sm={12} xs={24}>
-            <SvgIcon src={icon} width="100%" height="100%" />
-          </Col>
-          <Col lg={13} md={11} sm={11} xs={24}>
+    <MiddleContentForBenefitsSection>
+      <Slide direction="right">
             <ContentWrapper>
-              <h6>{t(title)}</h6>
+              <h6>{(title)}</h6>
               <Content>{t(content)}</Content>
               <ServiceWrapper>
-                <Row justify="start">
+                <Row justify="space-between">
                   {typeof section === "object" &&
                     section.map((item: any, id: number) => {
                       return (
@@ -46,11 +41,9 @@ const LeftContentBlock = ({
                 </Row>
               </ServiceWrapper>
             </ContentWrapper>
-          </Col>
-        </Row>
-      </Fade>
-    </LeftContentSection>
+            </Slide>
+    </MiddleContentForBenefitsSection>
   );
 };
 
-export default withTranslation()(LeftContentBlock);
+export default withTranslation()(MiddleContentForBenefitsSections);

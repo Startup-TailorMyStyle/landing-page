@@ -7,13 +7,6 @@ import { Button } from "../../common/Button";
 import {
   HeaderSection,
   LogoContainer,
-  Burger,
-  NotHidden,
-  Menu,
-  CustomNavLinkSmall,
-  Label,
-  Outline,
-  Span,
 } from "./styles";
 
 const Header = ({ t }: any) => {
@@ -30,26 +23,9 @@ const Header = ({ t }: any) => {
   return (
     <HeaderSection>
       <Container>
-        <Row justify="space-between">
           <LogoContainer to="/" aria-label="homepage">
-            <SvgIcon src="logo.svg" width="101px" height="64px" />
+          <SvgIcon src="mainLogo.jpeg" width="401px" height="150px" />
           </LogoContainer>
-          <Burger onClick={showDrawer}>
-            <Outline />
-          </Burger>
-        </Row>
-        <Drawer closable={false} visible={visible} onClose={onClose}>
-          <Col style={{ marginBottom: "2.5rem" }}>
-            <Label onClick={onClose}>
-              <Col span={12}>
-                <Menu>Menu</Menu>
-              </Col>
-              <Col span={12}>
-                <Outline />
-              </Col>
-            </Label>
-          </Col>
-        </Drawer>
       </Container>
     </HeaderSection>
   );
