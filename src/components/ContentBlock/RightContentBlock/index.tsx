@@ -20,7 +20,7 @@ const RightBlock = ({
   id,
 }: ContentBlockProps) => {
   const scrollTo = (id: string) => {
-    const element = document.getElementById(id) as HTMLDivElement;
+        const element = document.getElementById(id) as HTMLDivElement;
     element.scrollIntoView({
       behavior: "smooth",
     });
@@ -38,10 +38,9 @@ const RightBlock = ({
                   button.map((item: any, id: number) => {
                     return (
                       <Button
-                        key={id}
                         color={item.color}
                         fixedWidth={true}
-                        onClick={() => scrollTo("mission")}
+                        onClick={() => scrollTo("contact")}
                       >
                         {t(item.title)}
                       </Button>

@@ -39,7 +39,7 @@ const Home = () => {
         title={AboutContent.title}
         content={AboutContent.text}
         section={AboutContent.section}
-        id="about"
+        id="benefits"
       />
       <MiddleBlockForQA
         title={QAContent.title}
