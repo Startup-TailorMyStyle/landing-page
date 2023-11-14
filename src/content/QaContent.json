@@ -1,0 +1,21 @@
+{
+  "title": "Unlocking TailorMyStyle: Your Queries Answered",
+  "text": "Embark on a journey through TailorMyStyle with confidence. In this section, find answers to the most common questions, ensuring a seamless and enjoyable shopping experience. Have inquiries? We're here to guide you!",
+  "section": [
+    {
+      "question": "What sets TailorMyStyle apart from other online fashion platforms?",
+      "answer": "TailorMyStyle stands out through its focus on your precise body measurements. This ensures a personalized shopping experience and eliminates the uncertainty associated with choosing standard sizes.",
+      "icon": "faqIcon.svg"
+    },
+    {
+      "question": "How do I input my measurements on the platform?",
+      "answer": "TailorMyStyle stands out through its focus on your precise body measurements. This ensures a personalized shopping experience and eliminates the uncertainty associated with choosing standard sizes.",
+      "icon": "faqIcon.svg"
+    },
+    {
+      "question": "Is my personal information secure on TailorMyStyle?",
+      "answer": "Absolutely. We prioritize the security of your data. TailorMyStyle employs industry-leading encryption and security measures to safeguard your personal information, ensuring a safe and secure shopping experience.",
+      "icon": "faqIcon.svg"
+    }
+  ]
+}

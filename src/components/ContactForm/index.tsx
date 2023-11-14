@@ -18,7 +18,7 @@ const Contact = ({ title, content, id, t }: ContactProps) => {
   const ValidationType = ({ type }: ValidationTypeProps) => {
     const ErrorMessage = errors[type];
     return (
-      <Zoom direction="left">
+      <Zoom direction="right">
         <Span erros={errors[type]}>{ErrorMessage}</Span>
       </Zoom>
     );
@@ -43,7 +43,6 @@ const Contact = ({ title, content, id, t }: ContactProps) => {
                   value={values.name || ""}
                   onChange={handleChange}
                 />
-                <ValidationType type="name" />
               </Col>
               <Col span={24}>
                 <Input
@@ -53,7 +52,6 @@ const Contact = ({ title, content, id, t }: ContactProps) => {
                   value={values.email || ""}
                   onChange={handleChange}
                 />
-                <ValidationType type="email" />
               </Col>
               <Col span={24}>
                 <Input
@@ -63,7 +61,6 @@ const Contact = ({ title, content, id, t }: ContactProps) => {
                   value={values.email || ""}
                   onChange={handleChange}
                 />
-                <ValidationType type="email" />
               </Col>
               <Col span={24}>
                 <Input
@@ -73,10 +70,9 @@ const Contact = ({ title, content, id, t }: ContactProps) => {
                   value={values.email || ""}
                   onChange={handleChange}
                 />
-                <ValidationType type="email" />
               </Col>
               <ButtonContainer>
-                <Button name="submit">{("Submit")}</Button>
+                <Button name="submit">{("Style me up!")}</Button>
               </ButtonContainer>
             </FormGroup>
           </Slide>
