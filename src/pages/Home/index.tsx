@@ -24,7 +24,7 @@ const Home = () => {
         title={IntroContent.title}
         content={IntroContent.text}
         button={IntroContent.button}
-        icon="WhenShoppingFitsPerfectly.jpeg"
+        icon="WhenShoppingFitsPerfectly.png"
         id="intro"
       />
       <ContentBlock
@@ -32,7 +32,7 @@ const Home = () => {
         title={MiddleBlockContent.title}
         content={MiddleBlockContent.text}
         button={MiddleBlockContent.button}
-        icon="SizingUptheCompetition.jpeg"
+        icon="SizingUptheCompetition.png"
         id="middle"
       />
       <MiddleBlockForBenefits

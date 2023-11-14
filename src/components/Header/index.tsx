@@ -1,9 +1,7 @@
 import { useState } from "react";
-import { Row, Col, Drawer } from "antd";
 import { withTranslation } from "react-i18next";
 import Container from "../../common/Container";
 import { SvgIcon } from "../../common/SvgIcon";
-import { Button } from "../../common/Button";
 import {
   HeaderSection,
   LogoContainer,
@@ -23,8 +21,8 @@ const Header = ({ t }: any) => {
   return (
     <HeaderSection>
       <Container>
-          <LogoContainer to="/" aria-label="homepage">
-          <SvgIcon src="mainLogo.jpeg" width="401px" height="150px" />
+          <LogoContainer to="/landing-page" aria-label="homepage">
+          <SvgIcon src="mainLogo.png" width="401px" height="150px" />
           </LogoContainer>
       </Container>
     </HeaderSection>

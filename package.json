@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "homepage": "https://startup-tailormystyle.github.io/landing-page",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@types/node": "^15.14.9",
     "@types/react": "^17.0.70",
