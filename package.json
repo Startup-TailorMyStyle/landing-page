@@ -4,6 +4,7 @@
   "homepage": "https://startup-tailormystyle.github.io/landing-page",
   "private": false,
   "dependencies": {
+    "@hotjar/browser": "^1.0.9",
     "@types/node": "^15.14.9",
     "@types/react": "^17.0.70",
     "@types/react-dom": "^17.0.23",
