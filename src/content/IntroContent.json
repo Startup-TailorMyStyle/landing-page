@@ -1,9 +1,11 @@
 {
   "title": "Precision Fashion, Your Perfect Fit!",
   "text": "Step into a marketplace of personalized style. Join early access to discover fashion that's tailored just for you. Say goodbye to compromises, hello to perfect fits.",
-  "button": [
+  "button": 
     {
       "title": "Get Early Access"
     }
-  ]
+  ,
+  "defaultInputText": ""
+
 }

@@ -8,22 +8,26 @@ import QAContent from "../../content/QaContent.json";
 import ContactContent from "../../content/ContactContent.json";
 import MiddleBlockForBenefits from "../../components/MiddleBlockForBenefits";
 import MiddleBlockForQA from "../../components/MiddleBlockForQA";
+import { MainPageBlockContainer } from "../../components/ContentBlock/MainContentBlock/styles";
 
 const Contact = lazy(() => import("../../components/ContactForm"));
 const MiddleBlock = lazy(() => import("../../components/MiddleBlock"));
 const Container = lazy(() => import("../../common/Container"));
 const ScrollToTop = lazy(() => import("../../common/ScrollToTop"));
 const ContentBlock = lazy(() => import("../../components/ContentBlock"));
+const MainContentBlock = lazy(() => import("../../components/ContentBlock/MainContentBlock"));
+
 
 const Home = () => {
   return (
     <Container>
       <ScrollToTop />
-      <ContentBlock
+      <MainContentBlock
         type="right"
         title={IntroContent.title}
         content={IntroContent.text}
         button={IntroContent.button}
+        defaultInputText={IntroContent.defaultInputText}
         icon="WhenShoppingFitsPerfectly.png"
         id="intro"
       />
