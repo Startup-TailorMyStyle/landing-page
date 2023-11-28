@@ -53,24 +53,6 @@ const Contact = ({ title, content, id, t }: ContactProps) => {
                   onChange={handleChange}
                 />
               </Col>
-              <Col span={24}>
-                <Input
-                  type="text"
-                  name="password"
-                  placeholder="Password"
-                  value={values.email || ""}
-                  onChange={handleChange}
-                />
-              </Col>
-              <Col span={24}>
-                <Input
-                  type="text"
-                  name="password"
-                  placeholder="Confirm password"
-                  value={values.email || ""}
-                  onChange={handleChange}
-                />
-              </Col>
               <ButtonContainer>
                 <Button name="submit">{("Style me up!")}</Button>
               </ButtonContainer>
