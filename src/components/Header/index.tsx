@@ -22,7 +22,7 @@ const Header = ({ t }: any) => {
     <HeaderSection>
       <Container>
           <LogoContainer to="/landing-page" aria-label="homepage">
-          <SvgIcon src="mainLogo.png" width="401px" height="150px" />
+            <SvgIcon src="mainLogo.png" width="300px" height="100px" />
           </LogoContainer>
       </Container>
     </HeaderSection>
