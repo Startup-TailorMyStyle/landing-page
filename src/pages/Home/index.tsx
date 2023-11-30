@@ -22,7 +22,12 @@ const Home = () => {
   return (
     <Container>
       <ScrollToTop />
-      <MainContentBlock
+      <Contact
+        title={IntroContent.title}
+        content={IntroContent.text}
+        id="intro"
+      />
+      {/* <MainContentBlock
         type="right"
         title={IntroContent.title}
         content={IntroContent.text}
@@ -30,7 +35,7 @@ const Home = () => {
         defaultInputText={IntroContent.defaultInputText}
         icon="WhenShoppingFitsPerfectly.png"
         id="intro"
-      />
+      /> */}
       <ContentBlock
         type="left"
         title={MiddleBlockContent.title}

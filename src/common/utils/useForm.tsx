@@ -1,32 +1,27 @@
 import { useState, useEffect } from "react";
 import { notification } from "antd";
-import axios from "axios";
+import { useHistory } from "react-router-dom";
 
 export const useForm = (validate: any) => {
   const [values, setValues] = useState({});
   const [errors, setErrors] = useState({});
   const [shouldSubmit, setShouldSubmit] = useState(false);
+  const history = useHistory()
+  
 
   const openNotificationWithIcon = () => {
     notification["success"]({
       message: "Success",
       description: "Your message has been sent!",
     });
+    history.push("/thank-you")
   };
 
   const handleSubmit = (event: React.ChangeEvent<HTMLFormElement>) => {
     event.preventDefault();
     setErrors(validate(values));
-    // Your url for API
-    const url = "";
-    if (Object.keys(values).length === 3) {
-      axios
-        .post(url, {
-          ...values,
-        })
-        .then(() => {
+    if (Object.keys(values).length === 1) {
           setShouldSubmit(true);
-        });
     }
   };
 

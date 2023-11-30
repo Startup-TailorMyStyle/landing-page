@@ -1,8 +1,13 @@
 const routes = [
   {
-    path: ["/landing-page", "/home"],
+    path: ["/landing-page"],
     exact: true,
     component: "Home",
+  },
+  {
+    path: ["/thank-you"],
+    exact: true,
+    component: "ThankYou",
   },
 ];
 

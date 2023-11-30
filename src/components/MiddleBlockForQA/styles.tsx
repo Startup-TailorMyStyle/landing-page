@@ -38,6 +38,6 @@ text-align: center;
 
 export const Answer = styled("p")`
 font-size: 18px;
-text-align: left;
+text-align: center;
 margin-bottom: 20px;`;
 

@@ -38,15 +38,6 @@ const Contact = ({ title, content, id, t }: ContactProps) => {
               <Col span={24}>
                 <Input
                   type="text"
-                  name="name"
-                  placeholder="Name"
-                  value={values.name || ""}
-                  onChange={handleChange}
-                />
-              </Col>
-              <Col span={24}>
-                <Input
-                  type="text"
                   name="email"
                   placeholder="Email"
                   value={values.email || ""}

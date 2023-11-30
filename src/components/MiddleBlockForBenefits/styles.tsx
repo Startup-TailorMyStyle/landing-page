@@ -26,19 +26,18 @@ export const ContentWrapper = styled("div")`
 `;
 
 export const ServiceWrapper = styled("div")`
-  display: flex;
-  justify-content: space-between;
   max-width: 100%;
 `;
 
 export const MinTitle = styled("h5")`
-  font-size: 25px;
-  line-height: 2rem;
-  padding: 0.5rem 0;
-  text-transform: ;
-  color: #000;
+font-size: 24px;
+font-weight: bold;
+margin-bottom: 8px;
+text-align: center;
 `;
 
 export const MinPara = styled("p")`
-  font-size: 20px;
+font-size: 18px;
+text-align: center;
+margin-bottom: 20px;
 `;

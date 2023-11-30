@@ -75,3 +75,12 @@ width: 100%;
     margin-left: 0px;
   }
 `;
+
+export const ButtonContainer = styled("div")`
+  text-align: end;
+  position: relative;
+
+  @media only screen and (max-width: 414px) {
+    padding-top: 0.75rem;
+  }
+`;
