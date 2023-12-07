@@ -1,20 +1,20 @@
 {
-  "title": "Tailor Made fashion desires",
-  "text": "In a world where one size doesn't fit all, TailorMyStyle emerges as a game-changer. We understand the frustration that comes with ill-fitting clothes, and that's why we've crafted a platform that puts you in control.",
+  "title": "Dorințe de modă personalizate",
+  "text": "Într-o lume în care o singură dimensiune nu se potrivește tuturor, TailorMyStyle apare ca o soluție ambițioasă. Înțelegem frustrarea care vine cu hainele comandate care nu se potrivesc și de aceea am creat o platformă care vă oferă control asupra mărimilor.",
   "section": [
     {
-      "title": "Precision Fit, Every Time",
-      "content": "TailorMyStyle takes the guesswork out of online shopping by putting the focus on your exact measurements",
+      "title": "Constantă porecizie",
+      "content": "TailorMyStyle elimină presupunerile din cumpărăturile online, punând accentul pe măsurătorile tale exacte.",
       "icon": "advantagesIcon3.svg"
     },
     {
-      "title": "Eliminate Sizing Uncertainty",
-      "content": "Input your measurements, and let us guide you to a curated selection of clothing that is as unique as you are",
+      "title": "Eliminați incertitudinea în măsuri",
+      "content": "Introduceți măsurătorile și lăsați-ne să vă îndrumăm către o selecție precisă de îmbrăcăminte care este la fel de unică ca și dumneavoastră.",
       "icon": "advantagesIcon2.svg"
     },
     {
-      "title": "Personalized Shopping Experience",
-      "content": "TailorMyStyle empowers you to take control of your style by providing a platform where fashion meets functionality",
+      "title": "Experiență personalizată la cumpărături",
+      "content": "TailorMyStyle vă oferă posibilitatea să preluați controlul stilului dumneavoastră, oferind o platformă în care moda întâlnește funcționalitatea",
       "icon": "advantagesIcon1.svg"
     }
   ]

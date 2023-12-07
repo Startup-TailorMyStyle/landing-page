@@ -1,20 +1,20 @@
 {
-  "title": "Unlocking TailorMyStyle: Your Queries Answered",
-  "text": "Embark on a journey through TailorMyStyle with confidence. In this section, find answers to the most common questions, ensuring a seamless and enjoyable shopping experience. Have inquiries? We're here to guide you!",
+  "title": "Utilizarea TailorMyStyle: Întrebările tale au un raspuns precis",
+  "text": "Îmbarcați-vă într-o călătorie prin TailorMyStyle cu încredere. În această secțiune, găsiți răspunsuri la întrebări frecvente, asigurând o experiență plăcută și fără probleme. Aveți întrebări? Suntem aici pentru a vă ghida!",
   "section": [
     {
-      "question": "What sets TailorMyStyle apart from other online fashion platforms?",
-      "answer": "TailorMyStyle stands out through its focus on your precise body measurements. This ensures a personalized shopping experience and eliminates the uncertainty associated with choosing standard sizes.",
+      "question": "Ce diferențiază TailorMyStyle de alte platforme de modă online?",
+      "answer": "TailorMyStyle iese în evidență prin concentrarea sa pe măsurătorile precise ale corpului. Acest lucru asigură o experiență personalizată de cumpărături și elimină incertitudinea asociată cu dimensiunile standard.",
       "icon": "faqIcon.svg"
     },
     {
-      "question": "How do I input my measurements on the platform?",
-      "answer": "TailorMyStyle stands out through its focus on your precise body measurements. This ensures a personalized shopping experience and eliminates the uncertainty associated with choosing standard sizes.",
+      "question": "Cum pot introduce măsurătorile mele pe platformă?",
+      "answer": "TailorMyStyle oferă0 o serie de tutoriale scurte si accesibile pentru a vă ghida în masurarea corpului. Dacă alegeti să vă creati un cont de utilizator, aceste masurători vor fi salvate automat.",
       "icon": "faqIcon.svg"
     },
     {
-      "question": "Is my personal information secure on TailorMyStyle?",
-      "answer": "Absolutely. We prioritize the security of your data. TailorMyStyle employs industry-leading encryption and security measures to safeguard your personal information, ensuring a safe and secure shopping experience.",
+      "question": "Informațiile mele personale sunt securizate pe TailorMyStyle?",
+      "answer": "Absolut. Prioritizăm securitatea datelor dumneavoastră. TailorMyStyle utilizează măsuri de securitate pentru a vă proteja informațiile personale, oferind o sesiune de cumpărături sigură.",
       "icon": "faqIcon.svg"
     }
   ]

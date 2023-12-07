@@ -1,4 +1,4 @@
-import { lazy } from "react";
+import { lazy, useEffect } from "react";
 import IntroContent from "../../content/IntroContent.json";
 import MiddleBlockContent from "../../content/MiddleBlockContent.json";
 import AboutContent from "../../content/AboutContent.json";
@@ -17,8 +17,14 @@ const ScrollToTop = lazy(() => import("../../common/ScrollToTop"));
 const ContentBlock = lazy(() => import("../../components/ContentBlock"));
 const MainContentBlock = lazy(() => import("../../components/ContentBlock/MainContentBlock"));
 
+declare const window: any;
 
 const Home = () => {
+
+  useEffect(() => {
+    window.analytics.track("Home")
+  }, [])
+
   return (
     <Container>
       <ScrollToTop />

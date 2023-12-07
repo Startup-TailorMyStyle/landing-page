@@ -5,6 +5,7 @@
   "private": false,
   "dependencies": {
     "@hotjar/browser": "^1.0.9",
+    "@segment/snippet": "^5.2.0",
     "@types/node": "^15.14.9",
     "@types/react": "^17.0.70",
     "@types/react-dom": "^17.0.23",
@@ -15,6 +16,8 @@
     "i18next": "^19.9.2",
     "i18next-browser-languagedetector": "^6.1.8",
     "i18next-xhr-backend": "^3.2.2",
+    "next": "^14.0.3",
+    "path-browserify": "^1.0.1",
     "react": "^18.2.0",
     "react-awesome-reveal": "^3.8.1",
     "react-dom": "^18.2.0",
@@ -48,6 +51,7 @@
     ]
   },
   "devDependencies": {
+    "@types/gtag.js": "^0.0.18",
     "gh-pages": "^6.0.0"
   }
 }
