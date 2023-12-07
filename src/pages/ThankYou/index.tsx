@@ -12,10 +12,6 @@ const ThankYou = () => {
         window.analytics.track("ThankYou")
     }, [])
 
-    const[age, setAge] = useState(0)
-    const[gender, setGender] = useState('')
-    const[size, setSize] = useState('')
-
     return(
         <Container>
         <MiddleBlockForBenefits
